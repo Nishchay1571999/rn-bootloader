@@ -29,6 +29,7 @@ npm install rn-bootloader
 
 
 ## 🚀 Quick Start
+Wrap your complete app with AppReadyGate or import the AppReadyGate in your App.tsx like this 
 ```jsx
 import { AppReadyGate } from 'rn-bootloader'
 
@@ -37,6 +38,18 @@ export default function App() {
     <AppReadyGate>
       {/* Your app goes here */}
     </AppReadyGate>
+  )
+}
+```
+```jsx
+import { AppReadyGate } from 'rn-bootloader'
+
+export default function App() {
+  return (
+    <>
+        {/* Rest of the App */}
+        <AppReadyGate/>
+    </>
   )
 }
 ```
@@ -77,7 +90,7 @@ export default defineConfig([
 
 ```
 
-### In your index.js before registerRootComponent
+### In your index.js before registerRootComponent run the execute your configs method  
 ```js
 import { registerBootTask } from 'rn-bootloader'
 import config from "bootloader.config.ts"
