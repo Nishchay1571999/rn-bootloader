@@ -11166,10 +11166,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react@npm:19.0.0":
-  version: 19.0.0
-  resolution: "react@npm:19.0.0"
-  checksum: 86de15d85b2465feb40297a90319c325cb07cf27191a361d47bcfe8c6126c973d660125aa67b8f4cbbe39f15a2f32efd0c814e98196d8e5b68c567ba40a399c6
+"react@npm:19.3.0":
+  version: 19.3.0
+  resolution: "react@npm:19.3.0"
+  checksum: b33f946acb704533911e9341f5acac7671d630d0fdfd4af625596b0ec5f2df03933bd1c302c781994416ed013f24674cab8ea99edc1b6714433af2c20376574f
   languageName: node
   linkType: hard
 
@@ -11609,7 +11609,7 @@ __metadata:
     "@expo/metro-runtime": ~5.0.4
     expo: ~53.0.20
     expo-status-bar: ~2.2.3
-    react: 19.0.0
+    react: 19.3.0
     react-dom: 19.0.0
     react-native: 0.79.5
     react-native-builder-bob: ^0.40.8
@@ -11642,7 +11642,7 @@ __metadata:
     eventemitter3: ^5.0.1
     jest: ^29.7.0
     prettier: ^3.0.3
-    react: 19.0.0
+    react: 19.3.0
     react-native: 0.79.5
     react-native-builder-bob: ^0.40.8
     release-it: ^17.10.0
