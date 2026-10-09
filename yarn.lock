@@ -11088,9 +11088,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-web@npm:~0.20.0":
-  version: 0.20.0
-  resolution: "react-native-web@npm:0.20.0"
+"react-native-web@npm:~0.21.0":
+  version: 0.21.4
+  resolution: "react-native-web@npm:0.21.4"
   dependencies:
     "@babel/runtime": ^7.18.6
     "@react-native/normalize-colors": ^0.74.1
@@ -11103,7 +11103,7 @@ __metadata:
   peerDependencies:
     react: ^18.0.0 || ^19.0.0
     react-dom: ^18.0.0 || ^19.0.0
-  checksum: 8a75802b8f281466ff07547de34df434c918c7102b7de4cbca19bd532e38c692e70fc318bc0f8f5507b6d00c64c46540c65e926f757dd74ae7f6d279d98a6ed8
+  checksum: 8da77c1917fdac1fa68f21b622e74f1cd0134f7bc9fe52a826168d0eddd807537567325eff3f06f01059a38ca0a7cc3e8c4530821cec5966a5442168d2e0a06e
   languageName: node
   linkType: hard
 
@@ -11614,7 +11614,7 @@ __metadata:
     react-native: 0.79.5
     react-native-builder-bob: ^0.40.8
     react-native-monorepo-config: ^0.1.9
-    react-native-web: ~0.20.0
+    react-native-web: ~0.21.0
   languageName: unknown
   linkType: soft
 
